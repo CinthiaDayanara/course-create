@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Course = require('../modesl/course'); // Asegúrate de que la ruta al modelo sea correcta
+const Course = require('../models/course'); // Asegúrate de que la ruta al modelo sea correcta
 
 // Ruta para crear un nuevo curso
 router.post('/api/courses', async (req, res) => {
